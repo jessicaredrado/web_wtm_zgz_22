@@ -1,6 +1,7 @@
 <section id="event_info">
 <!-- Page Content -->
 
+
 {% for event_info in site.event_infos %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
@@ -58,36 +59,40 @@
 
 <hr class="section-heading-spacer" style="border-top: 5px solid #00fffc;width: 100%;">
 <div class="clearfix"></div>
+    
+        
     <div class="content-section-a" style="background-color: #{{ event_info.bg_color }}; color: #{{ event_info.f_color }};">
         <!--<img src="img/logo_wtm/{{ event_info.img_corner }}" class="esquina_superior_izquierda"/>-->
         <div class="container">
             <div class="row">
                 <div class="clearfix"></div>
-                <div class="col-lg-7  col-sm-7">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading" style="font-size: 24px !important;">Women Techmakers</h2>
-                    <div class="lead">Se trata de una iniciativa promovida a nivel global por Google para <strong>visibilizar a las mujeres</strong> en el ámbito de la tecnología.<br/><br/>Women Techmakers quiere crear una comunidad con visibilidad, generando recursos que impulsen la innovación y la participación de las mujeres en este campo.<br/></div>
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading" style="font-size: 24px !important;">¿A quién está dirigido?</h2>
-                    <div class="lead">Se trata de un <strong>evento abierto</strong> a cualquier persona interesada en el mundo de la tecnología.<br/><br/>Queremos abarcar diferentes temas como <strong>nuevas tecnologías, agile, comunicación, desarrollo web, UX</strong> o cualquier tema interesante del sector.<br/><br/>La asistencia al evento está abierta tanto a hombres como a mujeres, pero las ponentes serán únicamente mujeres, ya que uno de los objetivos es darles visibilidad así como ofrecer ayuda y colaboración.</div>
-                </div>
-                <div class="col-lg-5  col-sm-5">
-                    <div class="clearfix" style="height: 25px;"></div>
-                  <h2 class="section-heading" style="font-size: 24px !important;"> </h2>
-                    <div class="lead" style="font-size: 26px; font-weight: bold; color: #608edb;">285 asistentes, 35 ponentes mujeres y 4 mentoras, 22 charlas y 3 talleres, 94 propuestas recibidas en el Call for Papers, 30 patrocinadores y colaboradores, 2 tracks de charlas + 2 aulas de talleres, 10 medios de comunicacion se hicieron eco, 1600 followers en Twitter<br/></div>
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="col-lg-7  col-sm-7">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading" style="font-size: 24px !important;">Women Techmakers</h2>
+                        <div class="lead">Se trata de una iniciativa promovida a nivel global por Google para <strong>visibilizar a las mujeres</strong> en el ámbito de la tecnología.<br/><br/>Women Techmakers quiere crear una comunidad con visibilidad, generando recursos que impulsen la innovación y la participación de las mujeres en este campo.<br/></div>
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading" style="font-size: 24px !important;">¿A quién está dirigido?</h2>
+                        <div class="lead">Se trata de un <strong>evento abierto</strong> a cualquier persona interesada en el mundo de la tecnología.<br/><br/>Queremos abarcar diferentes temas como <strong>nuevas tecnologías, agile, comunicación, desarrollo web, UX</strong> o cualquier tema interesante del sector.<br/><br/>La asistencia al evento está abierta tanto a hombres como a mujeres, pero las ponentes serán únicamente mujeres, ya que uno de los objetivos es darles visibilidad así como ofrecer ayuda y colaboración.</div>
+                    </div>
+                    <div class="col-lg-5  col-sm-5">
+                        <div class="clearfix" style="height: 25px;"></div>
+                      <h2 class="section-heading" style="font-size: 24px !important;"> </h2>
+                        <div class="lead" style="font-size: 26px; font-weight: bold; color: #608edb;">285 asistentes, 35 ponentes mujeres y 4 mentoras, 22 charlas y 3 talleres, 94 propuestas recibidas en el Call for Papers, 30 patrocinadores y colaboradores, 2 tracks de charlas + 2 aulas de talleres, 10 medios de comunicacion se hicieron eco, 1600 followers en Twitter<br/></div>
+                    </div>
                 </div>
             </div>
 
         </div>
         <!-- /.container -->
+    </div>
 
-    </div>
-<header id="top" class="container header">
-    <div class="row-fluid">
-        <div class="col-md-12 col-sm-12 text-center" style="padding-right: 0px; padding-left: 0px;">
-            <img src="img/imgs_dossier/wtmzgrupo.jpg" style="/*max-width: 90%;*/max-width: 100%;" class="image_full1"/>
-            <img src="img/logo_wtm/wtm_zgz_mobile_2019.png" style="max-width: 90%" class="image_mobile1"/>
+    <header id="top" class="container header">
+        <div class="row-fluid">
+            <div class="col-md-12 col-sm-12 text-center" style="padding-right: 0px; padding-left: 0px;">
+                <img src="img/imgs_dossier/wtmzgrupo.jpg" style="/*max-width: 90%;*/max-width: 100%;" class="image_full1"/>
+                <img src="img/logo_wtm/wtm_zgz_mobile_2019.png" style="max-width: 90%" class="image_mobile1"/>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 </section>
