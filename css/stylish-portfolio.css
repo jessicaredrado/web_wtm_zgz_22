@@ -6,6 +6,16 @@
 
 /* Global Styles */
 
+@font-face {
+    font-family: "Monserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Monserrat";
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: bold;
+}
+
 html,
 body {
     width: 100%;
@@ -13,7 +23,7 @@ body {
 }
 
 body {
-    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Monserrat", "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #858585;
     font-size: 1.125em;
     font-weight: 300;
@@ -795,8 +805,12 @@ footer {
 
 ul i {
     /*color: #00bfa5;*/
-    color: #00b0b4;
+    color: #00fffc;
     padding-right: 5px;
+}
+
+a i {
+    color: #00fffc;
 }
 
 /* Header*/
@@ -1096,3 +1110,54 @@ section {
     max-width: 150px;
     display: none;
 }
+
+@media (min-width: 1200px) { 
+    .content-section-a .container, .content-section-b .container {
+        width: 1190px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .content-section-a .container, .content-section-b .container {
+        width: 1000px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1023px) {
+    .content-section-a .container, .content-section-b .container {
+        width: 780px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 799px) {
+    .content-section-a .container, .content-section-b .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .content-section-a .container, .content-section-b .container {
+        width: 590px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+    .content-section-a .container, .content-section-b .container {
+        width: 470px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .content-section-a .container, .content-section-b .container {
+        width: 310px;
+    }
+}
+
+/*
+mobile-portrait: min:320px - max:479px;
+mobile-landscape: min:480px - max:599px;
+small-tablet-portrait: min:600px - max:799px;
+small-tablet-landscape: min:800px - max:767px;
+tablet-portrait: min:768px - max:1023px;
+tablet-landscape: min:1024px;
+*/
