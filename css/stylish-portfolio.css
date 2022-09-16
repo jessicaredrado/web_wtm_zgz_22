@@ -207,13 +207,21 @@ hr.small {
     letter-spacing: 0;
     font-size: 14px;
     font-weight: bold;
-    color: #00fffc;
+    color: #4285f4;
 }
 
 .content-section-b strong {
     letter-spacing: 0;
     font-weight: bold;
-    color: #00fffc;
+    color: #4285f4;
+}
+
+.mulleres-highlight {
+    color: #00fffc !important;
+}
+
+.highlight {
+    color: #4285f4 !important;
 }
 
 /* About */
@@ -724,7 +732,7 @@ footer {
 
 .wtm-highlight {
     /*color: #00bfa5;*/
-    color: #00fffc;
+    color: #4285f4;
     font-weight: 100;
 }
 
@@ -735,7 +743,7 @@ footer {
 .wtm-highlight-no-bold {
     /*color: #00bfa5;*/
     /*color: #00b0b4;*/
-    color:  #00fffc;
+    color:  #4285f4;
     font-size: x-large;
     font-weight: 100;
 }
@@ -805,12 +813,12 @@ footer {
 
 ul i {
     /*color: #00bfa5;*/
-    color: #00fffc;
+    color: #4285f4;
     padding-right: 5px;
 }
 
 a i {
-    color: #00fffc;
+    color: #4285f4;
 }
 
 /* Header*/
@@ -849,8 +857,7 @@ a i {
 }
 
 #arrow_code_conduct {
-    /*fill: #00bfa5;*/
-    fill: #00fffc;
+    fill: #4285f4;
     max-width: 100px;
 }
 
