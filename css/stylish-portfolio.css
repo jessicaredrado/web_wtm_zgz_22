@@ -921,7 +921,7 @@ a i {
 }
 
 .ribbon-lg {
-    background-color: #42b8ca;
+    background-color: #4285f4;
     font-size: 20px;
 }
 
@@ -998,7 +998,7 @@ a i {
 
 .agenda-v2 table .small {
     background: rgb(190, 213, 252) !important;
-    color: #4385f4 !important;
+    color: #4285f4 !important;
     cursor: default !important;
     text-align: center !important;
 }
